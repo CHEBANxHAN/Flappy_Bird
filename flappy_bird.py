@@ -61,6 +61,8 @@ while True:
 
     if xb + 25 == xs + 25 and ys < yb < ys + 150:
         score += 1
+        mg.load("Data/point.mp3")
+        mg.play(0)
 
     if xt1 < -50:
         xs = 300
