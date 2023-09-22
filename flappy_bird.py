@@ -1,7 +1,6 @@
 import pygame as pg
 from pygame.mixer import music as mg
 from random import*
-import time
 pg.init()
 W = 300
 H = 500
